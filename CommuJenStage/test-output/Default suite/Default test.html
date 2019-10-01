@@ -1,0 +1,374 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 21 19:07:15 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1262 seconds (1262162 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='commusoftstage.commustageJ.AddAttachFile()'><b>AddAttachFile</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>27</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Addinvoice_Breakdownbycategory()'><b>Addinvoice_Breakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>31</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Addinvoice_Fullbreakdown()'><b>Addinvoice_Fullbreakdown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>32</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Addinvoice_Fullbreakdownbycategory()'><b>Addinvoice_Fullbreakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>31</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Addinvoice_NoBreakDown()'><b>Addinvoice_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>15</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Company_WorkAddress()'><b>Company_WorkAddress</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.ConvertEstimateToJob()'><b>ConvertEstimateToJob</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>66</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.CreateWorkAddress()'><b>CreateWorkAddress</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>16</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.CreateWorkAddressEstimate()'><b>CreateWorkAddressEstimate</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>56</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Create_Company()'><b>Create_Company</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>15</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Create_Companyjob()'><b>Create_Companyjob</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>9</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Create_Supplier()'><b>Create_Supplier</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>16</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Create_customer()'><b>Create_customer</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>11</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Create_job()'><b>Create_job</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>29</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Customer_AfterSalesCare()'><b>Customer_AfterSalesCare</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>36</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Customer_Createcontact()'><b>Customer_Createcontact</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>9</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Customer_NotesCommunication()'><b>Customer_NotesCommunication</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>16</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Diary_EstimateEvent()'><b>Diary_EstimateEvent</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>30</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Diary_JobEvent()'><b>Diary_JobEvent</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>30</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Diary_JobEventwithnewcustomer()'><b>Diary_JobEventwithnewcustomer</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>40</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Diary_NormallEvent()'><b>Diary_NormallEvent</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>16</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.EditJobReminder()'><b>EditJobReminder</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>10</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Edit_Company()'><b>Edit_Company</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>9</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Edit_Supplier()'><b>Edit_Supplier</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>13</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Edit_WorkAddress()'><b>Edit_WorkAddress</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>9</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Edit_customer()'><b>Edit_customer</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>8</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Edit_job()'><b>Edit_job</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>23</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Editinvoice_Breakdownbycategory()'><b>Editinvoice_Breakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Editinvoice_NoBreakDown()'><b>Editinvoice_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>13</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.JobReminder()'><b>JobReminder</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>13</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.OfficeTask()'><b>OfficeTask</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>16</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Payment_Breakdownbycategory()'><b>Payment_Breakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>8</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Payment_Fullbreakdown()'><b>Payment_Fullbreakdown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>13</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Payment_NoBreakDown()'><b>Payment_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>9</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.RejectEstimate()'><b>RejectEstimate</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>68</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.SolarSearch()'><b>SolarSearch</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>3</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Supplier_EditInvoice()'><b>Supplier_EditInvoice</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>19</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Supplier_Invoice()'><b>Supplier_Invoice</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>19</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Supplier_creditnote()'><b>Supplier_creditnote</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>30</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.Supplier_po()'><b>Supplier_po</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>19</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.View_NoBreakDown()'><b>View_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressAddAttachFile()'><b>WorkAddressAddAttachFile</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>21</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressAddinvoice_Breakdownbycategory()'><b>WorkAddressAddinvoice_Breakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>31</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressAddinvoice_Fullbreakdown()'><b>WorkAddressAddinvoice_Fullbreakdown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>34</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressAddinvoice_Fullbreakdownbycategory()'><b>WorkAddressAddinvoice_Fullbreakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>31</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressAddinvoice_NoBreakDown()'><b>WorkAddressAddinvoice_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressCreate_job()'><b>WorkAddressCreate_job</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>38</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressEditJobReminder()'><b>WorkAddressEditJobReminder</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>10</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressEdit_job()'><b>WorkAddressEdit_job</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>28</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressEditinvoice_Breakdownbycategory()'><b>WorkAddressEditinvoice_Breakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressEditinvoice_NoBreakDown()'><b>WorkAddressEditinvoice_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>13</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressJobReminder()'><b>WorkAddressJobReminder</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>15</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressOfficeTask()'><b>WorkAddressOfficeTask</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressPayment_Breakdownbycategory()'><b>WorkAddressPayment_Breakdownbycategory</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>8</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressPayment_Fullbreakdown()'><b>WorkAddressPayment_Fullbreakdown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>13</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressPayment_NoBreakDown()'><b>WorkAddressPayment_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>8</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.WorkAddressView_NoBreakDown()'><b>WorkAddressView_NoBreakDown</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>14</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.login()'><b>login</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>19</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+<tr>
+<td title='commusoftstage.commustageJ.service_reminder()'><b>service_reminder</b><br>Test class: commusoftstage.commustageJ</td>
+<td></td>
+<td>34</td>
+<td>commusoftstage.commustageJ@685cb137</td></tr>
+</table><p>
+</body>
+</html>

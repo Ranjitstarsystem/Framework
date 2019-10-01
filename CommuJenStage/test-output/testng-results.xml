@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="59" passed="59">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1262162" started-at="2019-06-21T13:37:15Z" finished-at="2019-06-21T13:58:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1262162" started-at="2019-06-21T13:37:15Z" finished-at="2019-06-21T13:58:17Z">
+      <class name="commusoftstage.commustageJ">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="startTest" is-config="true" duration-ms="283" started-at="2019-06-21T19:07:15Z" finished-at="2019-06-21T19:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="login" duration-ms="19048" started-at="2019-06-21T19:07:15Z" finished-at="2019-06-21T19:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="14" started-at="2019-06-21T19:07:34Z" finished-at="2019-06-21T19:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=commustageJ.login()[pri:0, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Create_customer()[pri:1, instance:commusoftstage.commustageJ@685cb137]" name="Create_customer" duration-ms="11163" started-at="2019-06-21T19:07:34Z" finished-at="2019-06-21T19:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_customer -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:07:45Z" finished-at="2019-06-21T19:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_customer status=SUCCESS method=commustageJ.Create_customer()[pri:1, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Edit_customer()[pri:2, instance:commusoftstage.commustageJ@685cb137]" name="Edit_customer" duration-ms="8518" started-at="2019-06-21T19:07:45Z" finished-at="2019-06-21T19:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_customer -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:07:54Z" finished-at="2019-06-21T19:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_customer status=SUCCESS method=commustageJ.Edit_customer()[pri:2, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Create_job()[pri:3, instance:commusoftstage.commustageJ@685cb137]" name="Create_job" duration-ms="29577" started-at="2019-06-21T19:07:54Z" finished-at="2019-06-21T19:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_job -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:08:23Z" finished-at="2019-06-21T19:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_job status=SUCCESS method=commustageJ.Create_job()[pri:3, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Edit_job()[pri:4, instance:commusoftstage.commustageJ@685cb137]" name="Edit_job" duration-ms="23088" started-at="2019-06-21T19:08:23Z" finished-at="2019-06-21T19:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_job -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:08:46Z" finished-at="2019-06-21T19:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_job status=SUCCESS method=commustageJ.Edit_job()[pri:4, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="OfficeTask()[pri:5, instance:commusoftstage.commustageJ@685cb137]" name="OfficeTask" duration-ms="16568" started-at="2019-06-21T19:08:46Z" finished-at="2019-06-21T19:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OfficeTask -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:09:03Z" finished-at="2019-06-21T19:09:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OfficeTask status=SUCCESS method=commustageJ.OfficeTask()[pri:5, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="JobReminder()[pri:6, instance:commusoftstage.commustageJ@685cb137]" name="JobReminder" duration-ms="13286" started-at="2019-06-21T19:09:03Z" finished-at="2019-06-21T19:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobReminder -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:09:16Z" finished-at="2019-06-21T19:09:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobReminder status=SUCCESS method=commustageJ.JobReminder()[pri:6, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="EditJobReminder()[pri:7, instance:commusoftstage.commustageJ@685cb137]" name="EditJobReminder" duration-ms="10212" started-at="2019-06-21T19:09:16Z" finished-at="2019-06-21T19:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditJobReminder -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:09:27Z" finished-at="2019-06-21T19:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditJobReminder status=SUCCESS method=commustageJ.EditJobReminder()[pri:7, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="AddAttachFile()[pri:8, instance:commusoftstage.commustageJ@685cb137]" name="AddAttachFile" duration-ms="27361" started-at="2019-06-21T19:09:27Z" finished-at="2019-06-21T19:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAttachFile -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:09:54Z" finished-at="2019-06-21T19:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddAttachFile status=SUCCESS method=commustageJ.AddAttachFile()[pri:8, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Addinvoice_NoBreakDown()[pri:9, instance:commusoftstage.commustageJ@685cb137]" name="Addinvoice_NoBreakDown" duration-ms="15065" started-at="2019-06-21T19:09:54Z" finished-at="2019-06-21T19:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:10:09Z" finished-at="2019-06-21T19:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_NoBreakDown status=SUCCESS method=commustageJ.Addinvoice_NoBreakDown()[pri:9, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Editinvoice_NoBreakDown()[pri:10, instance:commusoftstage.commustageJ@685cb137]" name="Editinvoice_NoBreakDown" duration-ms="13982" started-at="2019-06-21T19:10:09Z" finished-at="2019-06-21T19:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:10:23Z" finished-at="2019-06-21T19:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Editinvoice_NoBreakDown status=SUCCESS method=commustageJ.Editinvoice_NoBreakDown()[pri:10, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="View_NoBreakDown()[pri:11, instance:commusoftstage.commustageJ@685cb137]" name="View_NoBreakDown" duration-ms="14694" started-at="2019-06-21T19:10:23Z" finished-at="2019-06-21T19:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:10:38Z" finished-at="2019-06-21T19:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=View_NoBreakDown status=SUCCESS method=commustageJ.View_NoBreakDown()[pri:11, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Payment_NoBreakDown()[pri:12, instance:commusoftstage.commustageJ@685cb137]" name="Payment_NoBreakDown" duration-ms="9255" started-at="2019-06-21T19:10:38Z" finished-at="2019-06-21T19:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:10:47Z" finished-at="2019-06-21T19:10:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment_NoBreakDown status=SUCCESS method=commustageJ.Payment_NoBreakDown()[pri:12, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Addinvoice_Breakdownbycategory()[pri:13, instance:commusoftstage.commustageJ@685cb137]" name="Addinvoice_Breakdownbycategory" duration-ms="31215" started-at="2019-06-21T19:10:47Z" finished-at="2019-06-21T19:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:11:18Z" finished-at="2019-06-21T19:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_Breakdownbycategory status=SUCCESS method=commustageJ.Addinvoice_Breakdownbycategory()[pri:13, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Editinvoice_Breakdownbycategory()[pri:14, instance:commusoftstage.commustageJ@685cb137]" name="Editinvoice_Breakdownbycategory" duration-ms="14482" started-at="2019-06-21T19:11:18Z" finished-at="2019-06-21T19:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:11:33Z" finished-at="2019-06-21T19:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Editinvoice_Breakdownbycategory status=SUCCESS method=commustageJ.Editinvoice_Breakdownbycategory()[pri:14, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Payment_Breakdownbycategory()[pri:15, instance:commusoftstage.commustageJ@685cb137]" name="Payment_Breakdownbycategory" duration-ms="8187" started-at="2019-06-21T19:11:33Z" finished-at="2019-06-21T19:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Breakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:11:41Z" finished-at="2019-06-21T19:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment_Breakdownbycategory status=SUCCESS method=commustageJ.Payment_Breakdownbycategory()[pri:15, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Addinvoice_Fullbreakdown()[pri:16, instance:commusoftstage.commustageJ@685cb137]" name="Addinvoice_Fullbreakdown" duration-ms="32339" started-at="2019-06-21T19:11:41Z" finished-at="2019-06-21T19:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_Fullbreakdown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:12:13Z" finished-at="2019-06-21T19:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_Fullbreakdown status=SUCCESS method=commustageJ.Addinvoice_Fullbreakdown()[pri:16, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Payment_Fullbreakdown()[pri:17, instance:commusoftstage.commustageJ@685cb137]" name="Payment_Fullbreakdown" duration-ms="13043" started-at="2019-06-21T19:12:13Z" finished-at="2019-06-21T19:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Fullbreakdown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:12:26Z" finished-at="2019-06-21T19:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment_Fullbreakdown status=SUCCESS method=commustageJ.Payment_Fullbreakdown()[pri:17, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Addinvoice_Fullbreakdownbycategory()[pri:18, instance:commusoftstage.commustageJ@685cb137]" name="Addinvoice_Fullbreakdownbycategory" duration-ms="31857" started-at="2019-06-21T19:12:26Z" finished-at="2019-06-21T19:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addinvoice_Fullbreakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:12:58Z" finished-at="2019-06-21T19:12:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Addinvoice_Fullbreakdownbycategory status=SUCCESS method=commustageJ.Addinvoice_Fullbreakdownbycategory()[pri:18, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="RejectEstimate()[pri:18, instance:commusoftstage.commustageJ@685cb137]" name="RejectEstimate" duration-ms="68502" started-at="2019-06-21T19:12:58Z" finished-at="2019-06-21T19:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectEstimate -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:14:07Z" finished-at="2019-06-21T19:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RejectEstimate status=SUCCESS method=commustageJ.RejectEstimate()[pri:18, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="ConvertEstimateToJob()[pri:19, instance:commusoftstage.commustageJ@685cb137]" name="ConvertEstimateToJob" duration-ms="66831" started-at="2019-06-21T19:14:07Z" finished-at="2019-06-21T19:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConvertEstimateToJob -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:15:13Z" finished-at="2019-06-21T19:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConvertEstimateToJob status=SUCCESS method=commustageJ.ConvertEstimateToJob()[pri:19, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="CreateWorkAddress()[pri:20, instance:commusoftstage.commustageJ@685cb137]" name="CreateWorkAddress" duration-ms="16519" started-at="2019-06-21T19:15:13Z" finished-at="2019-06-21T19:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateWorkAddress -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:15:30Z" finished-at="2019-06-21T19:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateWorkAddress status=SUCCESS method=commustageJ.CreateWorkAddress()[pri:20, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Edit_WorkAddress()[pri:21, instance:commusoftstage.commustageJ@685cb137]" name="Edit_WorkAddress" duration-ms="9543" started-at="2019-06-21T19:15:30Z" finished-at="2019-06-21T19:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_WorkAddress -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:15:39Z" finished-at="2019-06-21T19:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_WorkAddress status=SUCCESS method=commustageJ.Edit_WorkAddress()[pri:21, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressCreate_job()[pri:22, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressCreate_job" duration-ms="38710" started-at="2019-06-21T19:15:39Z" finished-at="2019-06-21T19:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressCreate_job -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:16:18Z" finished-at="2019-06-21T19:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressCreate_job status=SUCCESS method=commustageJ.WorkAddressCreate_job()[pri:22, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressEdit_job()[pri:23, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressEdit_job" duration-ms="28312" started-at="2019-06-21T19:16:18Z" finished-at="2019-06-21T19:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEdit_job -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:16:46Z" finished-at="2019-06-21T19:16:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEdit_job status=SUCCESS method=commustageJ.WorkAddressEdit_job()[pri:23, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressOfficeTask()[pri:24, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressOfficeTask" duration-ms="14997" started-at="2019-06-21T19:16:46Z" finished-at="2019-06-21T19:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressOfficeTask -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:17:01Z" finished-at="2019-06-21T19:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressOfficeTask status=SUCCESS method=commustageJ.WorkAddressOfficeTask()[pri:24, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressJobReminder()[pri:25, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressJobReminder" duration-ms="15190" started-at="2019-06-21T19:17:01Z" finished-at="2019-06-21T19:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressJobReminder -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:17:17Z" finished-at="2019-06-21T19:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressJobReminder status=SUCCESS method=commustageJ.WorkAddressJobReminder()[pri:25, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressEditJobReminder()[pri:26, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressEditJobReminder" duration-ms="10242" started-at="2019-06-21T19:17:17Z" finished-at="2019-06-21T19:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEditJobReminder -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:17:27Z" finished-at="2019-06-21T19:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEditJobReminder status=SUCCESS method=commustageJ.WorkAddressEditJobReminder()[pri:26, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressAddAttachFile()[pri:27, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressAddAttachFile" duration-ms="21624" started-at="2019-06-21T19:17:27Z" finished-at="2019-06-21T19:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddAttachFile -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="3" started-at="2019-06-21T19:17:49Z" finished-at="2019-06-21T19:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddAttachFile status=SUCCESS method=commustageJ.WorkAddressAddAttachFile()[pri:27, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_NoBreakDown()[pri:28, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressAddinvoice_NoBreakDown" duration-ms="14832" started-at="2019-06-21T19:17:49Z" finished-at="2019-06-21T19:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:18:03Z" finished-at="2019-06-21T19:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_NoBreakDown status=SUCCESS method=commustageJ.WorkAddressAddinvoice_NoBreakDown()[pri:28, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressEditinvoice_NoBreakDown()[pri:29, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressEditinvoice_NoBreakDown" duration-ms="13232" started-at="2019-06-21T19:18:03Z" finished-at="2019-06-21T19:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEditinvoice_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:18:17Z" finished-at="2019-06-21T19:18:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEditinvoice_NoBreakDown status=SUCCESS method=commustageJ.WorkAddressEditinvoice_NoBreakDown()[pri:29, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressView_NoBreakDown()[pri:30, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressView_NoBreakDown" duration-ms="14804" started-at="2019-06-21T19:18:17Z" finished-at="2019-06-21T19:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressView_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:18:31Z" finished-at="2019-06-21T19:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressView_NoBreakDown status=SUCCESS method=commustageJ.WorkAddressView_NoBreakDown()[pri:30, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressPayment_NoBreakDown()[pri:31, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressPayment_NoBreakDown" duration-ms="8848" started-at="2019-06-21T19:18:31Z" finished-at="2019-06-21T19:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressPayment_NoBreakDown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:18:40Z" finished-at="2019-06-21T19:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressPayment_NoBreakDown status=SUCCESS method=commustageJ.WorkAddressPayment_NoBreakDown()[pri:31, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_Breakdownbycategory()[pri:32, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressAddinvoice_Breakdownbycategory" duration-ms="31416" started-at="2019-06-21T19:18:40Z" finished-at="2019-06-21T19:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:19:12Z" finished-at="2019-06-21T19:19:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_Breakdownbycategory status=SUCCESS method=commustageJ.WorkAddressAddinvoice_Breakdownbycategory()[pri:32, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressEditinvoice_Breakdownbycategory()[pri:33, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressEditinvoice_Breakdownbycategory" duration-ms="14633" started-at="2019-06-21T19:19:12Z" finished-at="2019-06-21T19:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressEditinvoice_Breakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:19:26Z" finished-at="2019-06-21T19:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressEditinvoice_Breakdownbycategory status=SUCCESS method=commustageJ.WorkAddressEditinvoice_Breakdownbycategory()[pri:33, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressPayment_Breakdownbycategory()[pri:34, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressPayment_Breakdownbycategory" duration-ms="8157" started-at="2019-06-21T19:19:26Z" finished-at="2019-06-21T19:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressPayment_Breakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:19:34Z" finished-at="2019-06-21T19:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressPayment_Breakdownbycategory status=SUCCESS method=commustageJ.WorkAddressPayment_Breakdownbycategory()[pri:34, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_Fullbreakdown()[pri:35, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressAddinvoice_Fullbreakdown" duration-ms="34106" started-at="2019-06-21T19:19:34Z" finished-at="2019-06-21T19:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_Fullbreakdown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:20:09Z" finished-at="2019-06-21T19:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_Fullbreakdown status=SUCCESS method=commustageJ.WorkAddressAddinvoice_Fullbreakdown()[pri:35, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressPayment_Fullbreakdown()[pri:36, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressPayment_Fullbreakdown" duration-ms="13244" started-at="2019-06-21T19:20:09Z" finished-at="2019-06-21T19:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressPayment_Fullbreakdown -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:20:22Z" finished-at="2019-06-21T19:20:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressPayment_Fullbreakdown status=SUCCESS method=commustageJ.WorkAddressPayment_Fullbreakdown()[pri:36, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="WorkAddressAddinvoice_Fullbreakdownbycategory()[pri:37, instance:commusoftstage.commustageJ@685cb137]" name="WorkAddressAddinvoice_Fullbreakdownbycategory" duration-ms="31881" started-at="2019-06-21T19:20:22Z" finished-at="2019-06-21T19:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkAddressAddinvoice_Fullbreakdownbycategory -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:20:54Z" finished-at="2019-06-21T19:20:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WorkAddressAddinvoice_Fullbreakdownbycategory status=SUCCESS method=commustageJ.WorkAddressAddinvoice_Fullbreakdownbycategory()[pri:37, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="CreateWorkAddressEstimate()[pri:38, instance:commusoftstage.commustageJ@685cb137]" name="CreateWorkAddressEstimate" duration-ms="56093" started-at="2019-06-21T19:20:54Z" finished-at="2019-06-21T19:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateWorkAddressEstimate -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:21:50Z" finished-at="2019-06-21T19:21:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateWorkAddressEstimate status=SUCCESS method=commustageJ.CreateWorkAddressEstimate()[pri:38, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Diary_NormallEvent()[pri:39, instance:commusoftstage.commustageJ@685cb137]" name="Diary_NormallEvent" duration-ms="16344" started-at="2019-06-21T19:21:50Z" finished-at="2019-06-21T19:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_NormallEvent -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:22:06Z" finished-at="2019-06-21T19:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_NormallEvent status=SUCCESS method=commustageJ.Diary_NormallEvent()[pri:39, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Diary_EstimateEvent()[pri:40, instance:commusoftstage.commustageJ@685cb137]" name="Diary_EstimateEvent" duration-ms="30302" started-at="2019-06-21T19:22:06Z" finished-at="2019-06-21T19:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_EstimateEvent -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:22:36Z" finished-at="2019-06-21T19:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_EstimateEvent status=SUCCESS method=commustageJ.Diary_EstimateEvent()[pri:40, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Diary_JobEvent()[pri:41, instance:commusoftstage.commustageJ@685cb137]" name="Diary_JobEvent" duration-ms="30438" started-at="2019-06-21T19:22:36Z" finished-at="2019-06-21T19:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_JobEvent -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:23:07Z" finished-at="2019-06-21T19:23:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_JobEvent status=SUCCESS method=commustageJ.Diary_JobEvent()[pri:41, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Diary_JobEventwithnewcustomer()[pri:42, instance:commusoftstage.commustageJ@685cb137]" name="Diary_JobEventwithnewcustomer" duration-ms="40116" started-at="2019-06-21T19:23:07Z" finished-at="2019-06-21T19:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diary_JobEventwithnewcustomer -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:23:47Z" finished-at="2019-06-21T19:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Diary_JobEventwithnewcustomer status=SUCCESS method=commustageJ.Diary_JobEventwithnewcustomer()[pri:42, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Create_Supplier()[pri:43, instance:commusoftstage.commustageJ@685cb137]" name="Create_Supplier" duration-ms="16569" started-at="2019-06-21T19:23:47Z" finished-at="2019-06-21T19:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Supplier -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:24:04Z" finished-at="2019-06-21T19:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Supplier status=SUCCESS method=commustageJ.Create_Supplier()[pri:43, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Edit_Supplier()[pri:44, instance:commusoftstage.commustageJ@685cb137]" name="Edit_Supplier" duration-ms="13531" started-at="2019-06-21T19:24:04Z" finished-at="2019-06-21T19:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Supplier -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:24:17Z" finished-at="2019-06-21T19:24:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_Supplier status=SUCCESS method=commustageJ.Edit_Supplier()[pri:44, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Supplier_po()[pri:45, instance:commusoftstage.commustageJ@685cb137]" name="Supplier_po" duration-ms="19653" started-at="2019-06-21T19:24:17Z" finished-at="2019-06-21T19:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_po -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:24:37Z" finished-at="2019-06-21T19:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_po status=SUCCESS method=commustageJ.Supplier_po()[pri:45, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Supplier_Invoice()[pri:47, instance:commusoftstage.commustageJ@685cb137]" name="Supplier_Invoice" duration-ms="19388" started-at="2019-06-21T19:24:37Z" finished-at="2019-06-21T19:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_Invoice -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:24:56Z" finished-at="2019-06-21T19:24:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_Invoice status=SUCCESS method=commustageJ.Supplier_Invoice()[pri:47, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Supplier_EditInvoice()[pri:48, instance:commusoftstage.commustageJ@685cb137]" name="Supplier_EditInvoice" duration-ms="19711" started-at="2019-06-21T19:24:56Z" finished-at="2019-06-21T19:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_EditInvoice -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:25:16Z" finished-at="2019-06-21T19:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_EditInvoice status=SUCCESS method=commustageJ.Supplier_EditInvoice()[pri:48, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Supplier_creditnote()[pri:49, instance:commusoftstage.commustageJ@685cb137]" name="Supplier_creditnote" duration-ms="30826" started-at="2019-06-21T19:25:16Z" finished-at="2019-06-21T19:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Supplier_creditnote -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:25:47Z" finished-at="2019-06-21T19:25:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Supplier_creditnote status=SUCCESS method=commustageJ.Supplier_creditnote()[pri:49, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Create_Company()[pri:50, instance:commusoftstage.commustageJ@685cb137]" name="Create_Company" duration-ms="15923" started-at="2019-06-21T19:25:47Z" finished-at="2019-06-21T19:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Company -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:26:03Z" finished-at="2019-06-21T19:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Company status=SUCCESS method=commustageJ.Create_Company()[pri:50, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Edit_Company()[pri:51, instance:commusoftstage.commustageJ@685cb137]" name="Edit_Company" duration-ms="9449" started-at="2019-06-21T19:26:03Z" finished-at="2019-06-21T19:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Company -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:26:12Z" finished-at="2019-06-21T19:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Edit_Company status=SUCCESS method=commustageJ.Edit_Company()[pri:51, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Create_Companyjob()[pri:52, instance:commusoftstage.commustageJ@685cb137]" name="Create_Companyjob" duration-ms="9956" started-at="2019-06-21T19:26:12Z" finished-at="2019-06-21T19:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Companyjob -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:26:22Z" finished-at="2019-06-21T19:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Create_Companyjob status=SUCCESS method=commustageJ.Create_Companyjob()[pri:52, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Company_WorkAddress()[pri:53, instance:commusoftstage.commustageJ@685cb137]" name="Company_WorkAddress" duration-ms="14367" started-at="2019-06-21T19:26:22Z" finished-at="2019-06-21T19:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company_WorkAddress -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:26:36Z" finished-at="2019-06-21T19:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Company_WorkAddress status=SUCCESS method=commustageJ.Company_WorkAddress()[pri:53, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="SolarSearch()[pri:54, instance:commusoftstage.commustageJ@685cb137]" name="SolarSearch" duration-ms="3297" started-at="2019-06-21T19:26:36Z" finished-at="2019-06-21T19:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SolarSearch -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:26:40Z" finished-at="2019-06-21T19:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SolarSearch status=SUCCESS method=commustageJ.SolarSearch()[pri:54, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Customer_AfterSalesCare()[pri:55, instance:commusoftstage.commustageJ@685cb137]" name="Customer_AfterSalesCare" duration-ms="36023" started-at="2019-06-21T19:26:40Z" finished-at="2019-06-21T19:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_AfterSalesCare -->
+        <test-method status="PASS" signature="service_reminder()[pri:56, instance:commusoftstage.commustageJ@685cb137]" name="service_reminder" duration-ms="34902" started-at="2019-06-21T19:27:16Z" finished-at="2019-06-21T19:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- service_reminder -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="0" started-at="2019-06-21T19:27:16Z" finished-at="2019-06-21T19:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_AfterSalesCare status=SUCCESS method=commustageJ.Customer_AfterSalesCare()[pri:55, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:27:51Z" finished-at="2019-06-21T19:27:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=service_reminder status=SUCCESS method=commustageJ.service_reminder()[pri:56, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Customer_NotesCommunication()[pri:57, instance:commusoftstage.commustageJ@685cb137]" name="Customer_NotesCommunication" duration-ms="16078" started-at="2019-06-21T19:27:51Z" finished-at="2019-06-21T19:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_NotesCommunication -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:28:07Z" finished-at="2019-06-21T19:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_NotesCommunication status=SUCCESS method=commustageJ.Customer_NotesCommunication()[pri:57, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="Customer_Createcontact()[pri:58, instance:commusoftstage.commustageJ@685cb137]" name="Customer_Createcontact" duration-ms="9346" started-at="2019-06-21T19:28:07Z" finished-at="2019-06-21T19:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Createcontact -->
+        <test-method status="PASS" signature="elogin(org.testng.ITestResult)[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="elogin" is-config="true" duration-ms="1" started-at="2019-06-21T19:28:16Z" finished-at="2019-06-21T19:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_Createcontact status=SUCCESS method=commustageJ.Customer_Createcontact()[pri:58, instance:commusoftstage.commustageJ@685cb137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elogin -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:commusoftstage.commustageJ@685cb137]" name="endTest" is-config="true" duration-ms="820" started-at="2019-06-21T19:28:16Z" finished-at="2019-06-21T19:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- commusoftstage.commustageJ -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
