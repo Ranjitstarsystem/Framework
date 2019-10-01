@@ -513,6 +513,8 @@ public class payfort extends FrameworkFinal {
 	public static void kill()
 	{
 		System.out.println("really");
+		System.out.println("ROCK");
+		
 	}
 	
 }
