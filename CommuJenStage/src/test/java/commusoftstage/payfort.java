@@ -510,5 +510,9 @@ public class payfort extends FrameworkFinal {
 			logger.log(Status.PASS, "payment via payfort is been Fine");
 		}
 	}
+	public static void kill()
+	{
+		System.out.println("really");
+	}
 	
 }
